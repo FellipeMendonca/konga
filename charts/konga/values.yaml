@@ -25,12 +25,12 @@ config:
   # ssl_crt_path: "./../../certs/server.crt"
 #   konga_hook_timeout: 60000
   db_adapter: "postgres"
-  db_uri: "postgresql://postgres:PHRfrFmKUe@postgresql.kong-demo.svc.cluster.local:5432/konga_database"
-  db_host: "postgresql.kong-demo.svc.cluster.local"
+  db_uri: "postgresql://postgres:A02pDbSYur@postgresql.database.svc.cluster.local:5432/konga_database"
+  db_host: "postgresql.database.svc.cluster.local"
   db_port: 5432
   db_user: "postgres"
-  db_password: "PHRfrFmKUe"
-  db_database: "konga_database"
+  db_password: "A02pDbSYur"
+  db_database: "konga"
   # db_pg_schema: public
 #   log_level: debug
   token_secret: "owsfelluamat"
